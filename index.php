@@ -34,7 +34,7 @@
                     </div>
                     <div class="form-group">
                       <label for="data">Data Nascimento</label>
-                      <input type="date" class="form-control"  name="dt_nascimento"> 
+                      <input type="date" class="form-control"  name="dt_nascimentoo"> 
                     </div>
                     <div class="form-group">
                       <input type="submit" class="btn btn-sucess"> 
