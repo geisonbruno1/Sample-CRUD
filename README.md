@@ -4,12 +4,12 @@
 - Usando o MySQL
 - Criado uma tabela "pessoas" com os campos;
 
-_-- cod_pessoa
+*-- cod_pessoa
   -- nome
     -- endereco
       -- telefone
         -- email
-          -- data_nascimento_
+          -- data_nascimento*
   - Fazendo conexão com banco de dados
   - Script para cadastrar pessoas no BD
   - Script para listar os dados da tabela no BD
