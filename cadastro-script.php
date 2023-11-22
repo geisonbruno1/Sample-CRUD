@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -31,11 +32,11 @@
                 $stmt = $conn->prepare("INSERT INTO pessoas (nome, endereco, telefone, email, data_nascimento) VALUES (?, ?, ?, ?, ?)");
                 $stmt->bind_param("sssss", $nome, $endereco, $telefone, $email, $data_nascimento);
                
-                if($stmt->execute()){
-                    mensagem("$nome cadastrado com sucesso!", 'sucess');
-                } else {
-                  mensagem("$nome NÃO cadastrado!", 'danger');
-                }
+                 if($stmt->execute()){
+                     mensagem("$nome cadastrado com sucesso!", 'sucess');
+                 } else {
+                   mensagem("$nome NÃO cadastrado!", 'danger');
+                 }
               ?>
 
                 <a href="index.php" class = "btn btn-primary" >Voltar</a>
