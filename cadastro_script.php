@@ -32,11 +32,14 @@
                 $stmt->bind_param("sssss", $nome, $endereco, $telefone, $email, $data_nascimento);
                
                 if($stmt->execute()){
-                    echo "</br> $nome cadastrado com sucesso!";
+                    mensagem("$nome cadastrado com sucesso!", 'sucess');
                 } else {
-                    echo "Erro ao cadastrar $nome: " . $stmt->error;
+                  mensagem("$nome NÃO cadastrado!", 'danger');
                 }
               ?>
+
+                <a href="index.php" class = "btn btn-primary" >Voltar</a>
+
         </div>
     </div>
 

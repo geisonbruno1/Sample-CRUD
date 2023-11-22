@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -34,7 +34,7 @@
                     </div>
                     <div class="form-group">
                       <label for="data">Data Nascimento</label>
-                      <input type="date" class="form-control"  name="dt_nascimento"> 
+                      <input type="date" class="form-control"  name="data_nascimento"> 
                     </div>
                     <div class="form-group">
                       <input type="submit" class="btn btn-sucess"> 
