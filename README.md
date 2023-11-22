@@ -4,7 +4,7 @@
 - Usando o MySQL
 - Criado uma tabela "pessoas" com os campos;
 
-*-- cod_pessoa
+*-- id
   -- nome
     -- endereco
       -- telefone
